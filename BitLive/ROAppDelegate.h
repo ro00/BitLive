@@ -11,5 +11,7 @@
 @interface ROAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (copy) void (^backgroundSessionCompletionHandler)();
+@property(strong , nonatomic) NSTimer *backgroundTimer;
 
 @end
