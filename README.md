@@ -7,4 +7,4 @@ It can also remind you the bitcoin price in in the background after turning on t
 
 It's an old project so some of the APIs might be out of date.I will update the APIs in the furture.
 
-![ScreenShot](/screenshots.jpg)
+![ScreenShot](screenshot.jpg)
