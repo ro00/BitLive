@@ -8,23 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
-#define kPricesChangedNotification @"kPricesChangedNotification"
 
 @interface ROBitPricesManager : NSObject<NSURLSessionDelegate,NSURLSessionTaskDelegate,NSURLSessionDownloadDelegate>{
-    NSMutableArray *prices;
     NSTimer *updateTimer;
 }
 
-@property(nonatomic,strong,readonly) NSMutableArray *prices;
+@property(nonatomic,strong,readonly) NSMutableArray *sourcesPrices;
 @property(nonatomic,strong) NSString *price;
 @property(nonatomic,strong) NSString *backgroundPrice;
-
-@property(nonatomic,strong) NSURLSession *session;
-@property(nonatomic,strong) NSURLSessionDownloadTask *downloadTask;
 
 +(ROBitPricesManager*)sharedManager;
 
 -(void)testParse;
 -(void)startDownload;
+
++(NSDictionary*)readPriceInfo:(NSDictionary*)original bySourceName:(NSString*)sourceName currency:(NSString*)curr;
++(NSString*)getAPI_UrlBySourceName:(NSString*)sourceName Currency:(NSString*)c;
 
 @end

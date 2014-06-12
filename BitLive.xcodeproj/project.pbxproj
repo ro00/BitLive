@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B651478778C471A91842491 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0933832AE2A4A87A3FD8702 /* libPods.a */; };
+		D0809D3B18537D8000C79199 /* ROAlertControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0809D3A18537D8000C79199 /* ROAlertControlCell.m */; };
 		D0B745921841FB06003AB779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B745911841FB06003AB779 /* Foundation.framework */; };
 		D0B745941841FB06003AB779 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B745931841FB06003AB779 /* CoreGraphics.framework */; };
 		D0B745961841FB06003AB779 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B745951841FB06003AB779 /* UIKit.framework */; };
@@ -25,6 +26,8 @@
 		D0B745C01841FB07003AB779 /* BitLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B745BF1841FB07003AB779 /* BitLiveTests.m */; };
 		D0B745CB1841FBC6003AB779 /* ROBitLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B745CA1841FBC6003AB779 /* ROBitLiveViewController.m */; };
 		D0C7E48018477D1700A43EDB /* ROBitPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C7E47F18477D1700A43EDB /* ROBitPrice.m */; };
+		D0C7E48418478C4200A43EDB /* ROBitSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C7E48318478C4200A43EDB /* ROBitSource.m */; };
+		D0D0EA761848ED4A005E0F6E /* ROBitTablePriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0EA751848ED4A005E0F6E /* ROBitTablePriceCell.m */; };
 		D0ED218B18420561007B5782 /* ROBitPricesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED218A18420561007B5782 /* ROBitPricesManager.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,8 @@
 /* Begin PBXFileReference section */
 		5F79B3DF03A443FCADB49BEB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		A0933832AE2A4A87A3FD8702 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0809D3918537D8000C79199 /* ROAlertControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROAlertControlCell.h; sourceTree = "<group>"; };
+		D0809D3A18537D8000C79199 /* ROAlertControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROAlertControlCell.m; sourceTree = "<group>"; };
 		D0B7458E1841FB06003AB779 /* BitLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B745911841FB06003AB779 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0B745931841FB06003AB779 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +70,11 @@
 		D0B745CA1841FBC6003AB779 /* ROBitLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROBitLiveViewController.m; sourceTree = "<group>"; };
 		D0C7E47E18477D1700A43EDB /* ROBitPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROBitPrice.h; sourceTree = "<group>"; };
 		D0C7E47F18477D1700A43EDB /* ROBitPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROBitPrice.m; sourceTree = "<group>"; };
+		D0C7E4811847847D00A43EDB /* ROBitLiveConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROBitLiveConstants.h; sourceTree = "<group>"; };
+		D0C7E48218478C4200A43EDB /* ROBitSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROBitSource.h; sourceTree = "<group>"; };
+		D0C7E48318478C4200A43EDB /* ROBitSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROBitSource.m; sourceTree = "<group>"; };
+		D0D0EA741848ED49005E0F6E /* ROBitTablePriceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROBitTablePriceCell.h; sourceTree = "<group>"; };
+		D0D0EA751848ED4A005E0F6E /* ROBitTablePriceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROBitTablePriceCell.m; sourceTree = "<group>"; };
 		D0ED218918420561007B5782 /* ROBitPricesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROBitPricesManager.h; sourceTree = "<group>"; };
 		D0ED218A18420561007B5782 /* ROBitPricesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROBitPricesManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,10 +145,14 @@
 				D0B745A61841FB06003AB779 /* Main_iPad.storyboard */,
 				D0B745A91841FB06003AB779 /* ROViewController.h */,
 				D0B745AA1841FB06003AB779 /* ROViewController.m */,
+				D0C7E4811847847D00A43EDB /* ROBitLiveConstants.h */,
 				D0ED218918420561007B5782 /* ROBitPricesManager.h */,
 				D0ED218A18420561007B5782 /* ROBitPricesManager.m */,
-				D0C7E47E18477D1700A43EDB /* ROBitPrice.h */,
-				D0C7E47F18477D1700A43EDB /* ROBitPrice.m */,
+				D0D0EA741848ED49005E0F6E /* ROBitTablePriceCell.h */,
+				D0D0EA751848ED4A005E0F6E /* ROBitTablePriceCell.m */,
+				D0809D3918537D8000C79199 /* ROAlertControlCell.h */,
+				D0809D3A18537D8000C79199 /* ROAlertControlCell.m */,
+				D0C7E48518478C4500A43EDB /* Model */,
 				D0B745C91841FBC6003AB779 /* ROBitLiveViewController.h */,
 				D0B745CA1841FBC6003AB779 /* ROBitLiveViewController.m */,
 				D0B745AC1841FB06003AB779 /* Images.xcassets */,
@@ -174,6 +188,17 @@
 				D0B745BC1841FB07003AB779 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0C7E48518478C4500A43EDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0C7E48218478C4200A43EDB /* ROBitSource.h */,
+				D0C7E48318478C4200A43EDB /* ROBitSource.m */,
+				D0C7E47E18477D1700A43EDB /* ROBitPrice.h */,
+				D0C7E47F18477D1700A43EDB /* ROBitPrice.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,9 +343,12 @@
 				D0B7459E1841FB06003AB779 /* main.m in Sources */,
 				D0B745A21841FB06003AB779 /* ROAppDelegate.m in Sources */,
 				D0B745AB1841FB06003AB779 /* ROViewController.m in Sources */,
+				D0D0EA761848ED4A005E0F6E /* ROBitTablePriceCell.m in Sources */,
+				D0809D3B18537D8000C79199 /* ROAlertControlCell.m in Sources */,
 				D0B745CB1841FBC6003AB779 /* ROBitLiveViewController.m in Sources */,
 				D0C7E48018477D1700A43EDB /* ROBitPrice.m in Sources */,
 				D0ED218B18420561007B5782 /* ROBitPricesManager.m in Sources */,
+				D0C7E48418478C4200A43EDB /* ROBitSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

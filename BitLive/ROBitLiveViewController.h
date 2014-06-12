@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ROBitLiveViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+    UITextField *latestResponder;
 }
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
